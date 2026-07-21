@@ -1,0 +1,23 @@
+{
+  "Application": {
+    "name": "Plataforma Integradora de Servicios"
+  },
+  "MainLayout": {
+    "footer": "©{currentYear} Creación personal",
+    "helpMenu": {
+      "userManual": "Manual de usuario",
+      "aboutMe": "Acerca de"
+    },
+    "userMenu": {
+      "signOut": "Cerrar sesión"
+    }
+  },
+  "LocaleSwitcher": {
+    "es": "ES",
+    "en": "EN"
+  },
+  "HomePage": {
+    "welcome": "Bienvenido,",
+    "recentSearches": "Búsquedas recientes"
+  }
+}
