@@ -1,8 +1,10 @@
 import { themeTokens } from '@/contexts/AntdContext';
-import { Divider, Flex, Grid, Layout } from 'antd';
+import { Button, Divider, Flex, Grid, Layout } from 'antd';
+import { useTranslations } from 'next-intl';
 
 export default function MainHeader() {
   const screens = Grid.useBreakpoint();
+  const t = useTranslations('HomePage');
 
   return (
     <Layout.Header
@@ -25,11 +27,27 @@ export default function MainHeader() {
         justify="flex-end"
         style={{ width: '100%', height: '100%' }}
       >
+        <Button type="text" href="#home">
+          {t('home')}
+        </Button>
+
+        <Button type="text" href="#jobs">
+          {t('experience')}
+        </Button>
+
+        <Button type="text" href="#projects">
+          {t('projects')}
+        </Button>
+
+        <Button type="text" href="#education">
+          {t('education')}
+        </Button>
+
         <Divider
           orientation="vertical"
           style={{
             height: 24,
-            borderColor: themeTokens.ligthDetails,
+            borderColor: themeTokens.secundary2,
             marginInline: 8,
           }}
         />

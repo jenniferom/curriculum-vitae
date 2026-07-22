@@ -25,7 +25,7 @@ export default function MainLayout({
         {children}
       </Layout>
 
-      <Layout.Footer
+      {/* <Layout.Footer
         style={{
           color: 'white',
           textAlign: 'center',
@@ -33,7 +33,7 @@ export default function MainLayout({
         }}
       >
         {t('footer', { currentYear: new Date().getFullYear() })}
-      </Layout.Footer>
+      </Layout.Footer>*/}
     </Layout>
   );
 }

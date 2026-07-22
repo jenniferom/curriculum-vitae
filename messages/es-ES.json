@@ -17,7 +17,68 @@
     "en": "EN"
   },
   "HomePage": {
-    "welcome": "Bienvenido,",
-    "recentSearches": "Búsquedas recientes"
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "projects": "Proyectos"
+  },
+  "PublicPage": {
+    "hero": {
+      "commissions": "Especialista en desarrollo frontend",
+      "title": "Jennifer Ortiz Méndez",
+      "subtitle": "Ingeniera en Ciencias Informáticas | Desarrolladora Frontend especializada en React y Next.js.",
+      "descriptions": "Apasionada por la creación de interfaces de usuario robustas, escalables y centradas en el rendimiento. Experta en ecosistemas modernos de JavaScript con amplia experiencia en proyectos empresariales complejos, migraciones tecnológicas y arquitectura de componentes"
+    },
+    "experience": {
+      "title": "Experiencia Profesional"
+    },
+    "jobs": {
+      "datys": {
+        "title": "DATYS",
+        "position": "Especialista en Programación Avanzada",
+        "period": "2024 - Presente",
+        "type": "Tiempo completo",
+        "achievement1": "Liderazgo técnico en la migración estratégica de Blazor a Next.js, mejorando los tiempos de carga y optimizando el SEO.",
+        "achievement2": "Desarrollo integral de una plataforma de servicios en línea desde cero, implementando una arquitectura de micro-frontends modular.",
+        "achievement3": "Implementación de sistemas de diseño complejos basados en Ant Design y Tailwind CSS para estandarizar la UI corporativa.",
+        "achievement4": "Gestión eficiente de estados asíncronos y caché mediante TanStack Query, reduciendo peticiones redundantes al backend."
+      }
+    },
+    "education": {
+      "title": "Formación Académica",
+      "description": "Formación y especialización profesional",
+      "uci": {
+        "title": "Ingeniería en Ciencias Informáticas",
+        "subtitle": "Universidad de las Ciencias Informáticas (UCI)",
+        "period": "2018-2023",
+        "description": "Formación orientada al desarrollo de software, algoritmos, estructuras de datos, ingeniería de software y gestión de proyectos tecnológicos."
+      },
+      "cypress": {
+        "title": "Entrenamiento de pruebas con Cypress",
+        "subtitle": "Certificación - Universidad de las Ciencias Informáticas",
+        "period": "2026",
+        "description": "Automatización de pruebas end to end y de API con Cypress y Postman"
+      }
+    },
+    "projects": {
+      "title": "Proyectos Destacados",
+      "description": "Una selección de proyectos en los que he trabajado.",
+      "biometricSearch": {
+        "title": "Buscador Biométrico",
+        "description": "Sistema de búsqueda de alta precisión para identificación biométrica. Optimizado para manejar grandes volúmenes de datos con visualizaciones interactivas de resultados y matching en tiempo real.",
+        "technologies": "Next.js, Ant Design, Material Icons, TypeScript, TanStack Query"
+      },
+      "commercialPlatform": {
+        "title": "Plataforma Comercial",
+        "description": "Ecosistema digital de servicios en línea para gestión comercial B2B. Incluye módulos de facturación, gestión de usuarios y reportes dinámicos.",
+        "technologies": "Next.js, Ant Design, TypeScript, TanStack Query, Zod"
+      },
+      "featured": {
+        "tag": "Estudio de caso móvil",
+        "title": "Aplicación Móvil para Lectura de Códigos QR",
+        "description": "Desarrollo multiplataforma de una aplicación móvil integrada con una plataforma de servicios, con funcionalidades de lectura y generación de códigos QR, integración con APIs REST y desarrollo de vistas para la presentación de información, garantizando la integridad de los datos y una experiencia de usuario fluida.",
+        "technologies": "React Native, Expo, TypeScript, React Navigation"
+      }
+    }
   }
 }

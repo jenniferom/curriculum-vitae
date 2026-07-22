@@ -10,12 +10,15 @@ import { Locale } from 'antd/es/locale';
  * @constant
  */
 export const themeTokens = {
-  primary: '#1c87c7',
-  secundary: '#bcbcbc',
+  primary: '#02153d',
+  secundary: '#5d1f8c',
+  secundary2: '#722ed1',
+  details: '#0197af',
+  details2: '#00eed0',
   hover: '#d2e7f4',
   bg: '#fff',
   ligthDetails: '#fff',
-  bgSecundary: '#d2e7f4ab',
+  bgSecundary: '#efe7fd',
   border: '1px solid rgba(0, 0, 0, 0.08)',
 };
 
