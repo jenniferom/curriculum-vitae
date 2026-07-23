@@ -1,10 +1,11 @@
 import { themeTokens } from '@/contexts/AntdContext';
 import { Button, Divider, Flex, Grid, Layout } from 'antd';
 import { useTranslations } from 'next-intl';
+import LocaleSwitcher from '@/components/LocaleSwitcher/LocaleSwitcher';
 
 export default function MainHeader() {
   const screens = Grid.useBreakpoint();
-  const t = useTranslations('HomePage');
+  const t = useTranslations('Header');
 
   return (
     <Layout.Header
@@ -51,6 +52,7 @@ export default function MainHeader() {
             marginInline: 8,
           }}
         />
+        <LocaleSwitcher />
       </Flex>
     </Layout.Header>
   );

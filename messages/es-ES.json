@@ -3,20 +3,19 @@
     "name": "Plataforma Integradora de Servicios"
   },
   "MainLayout": {
-    "footer": "©{currentYear} Creación personal",
-    "helpMenu": {
-      "userManual": "Manual de usuario",
-      "aboutMe": "Acerca de"
-    },
-    "userMenu": {
-      "signOut": "Cerrar sesión"
-    }
+    "footer": "©{currentYear} Creación personal"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "name": "Jennifer Ortiz Méndez",
+    "email": "jenniferom0009@gmail.com",
+    "mobile": "+53 56 596 891"
   },
   "LocaleSwitcher": {
     "es": "ES",
     "en": "EN"
   },
-  "HomePage": {
+  "Header": {
     "home": "Inicio",
     "experience": "Experiencia",
     "education": "Educación",
@@ -78,6 +77,38 @@
         "title": "Aplicación Móvil para Lectura de Códigos QR",
         "description": "Desarrollo multiplataforma de una aplicación móvil integrada con una plataforma de servicios, con funcionalidades de lectura y generación de códigos QR, integración con APIs REST y desarrollo de vistas para la presentación de información, garantizando la integridad de los datos y una experiencia de usuario fluida.",
         "technologies": "React Native, Expo, TypeScript, React Navigation"
+      }
+    },
+    "technologies": {
+      "title": "Stack Tecnológico",
+      "description": "Dominio avanzado de herramientas modernas para el desarrollo de aplicaciones web de alto impacto.",
+      "languages": {
+        "title": "Lenguajes",
+        "items": "TypeScript, JavaScript, HTML, CSS, C#"
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": "React, Next.js 15/16, React Native, Ant Design 5/6, Material UI, Tailwind CSS, Bootstrap"
+      },
+      "data": {
+        "title": "Datos y validación",
+        "items": "TanStack Query, Context API, Zod"
+      },
+      "authentication": {
+        "title": "Autenticación y autorización",
+        "items": "Auth.js, Keycloak, Acceso basado en roles"
+      },
+      "integration": {
+        "title": "Integración",
+        "items": "APIs REST, Swagger/OpenAPI, Postman"
+      },
+      "testingTools": {
+        "title": "Testing y herramientas",
+        "items": "Cypress, Pruebas E2E, Git, GitHub, TFS/Azure DevOps, Figma, Navicat"
+      },
+      "others": {
+        "title": "Otros",
+        "items": "Docker, Linux, i18n, Scrum"
       }
     }
   }

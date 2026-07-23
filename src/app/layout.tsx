@@ -7,7 +7,7 @@ import MainLayout from '@/components/Layout/MainLayout';
 export const metadata: Metadata = {
   title: 'Jennifer | Frontend Developer & Software Engineer',
   description:
-    'Portfolio personal de Jennifer, desarrolladora frontend y especialista en desarrollo de software.',
+    'Portafolio personal de Jennifer, desarrolladora frontend y especialista en desarrollo de software.',
 };
 
 export default async function RootLayout({
