@@ -39,8 +39,9 @@ export default function ProjectCard({
             preview={false}
             style={{
               width: '100%',
-              height: 180,
+              height: 200,
               objectFit: 'cover',
+              objectPosition: 'top',
               display: 'block',
             }}
           />

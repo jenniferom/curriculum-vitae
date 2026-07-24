@@ -48,9 +48,13 @@ export default function EducationCard({
             {title}
           </Typography.Title>
 
-          <Typography.Text type="secondary">{subtitle}</Typography.Text>
+          <Typography.Text style={{ color: themeTokens.secundary }}>
+            {subtitle}
+          </Typography.Text>
 
-          <Typography.Text>{period}</Typography.Text>
+          <Typography.Text type="secondary" style={{ display: 'block' }}>
+            {period}
+          </Typography.Text>
 
           {description && (
             <Typography.Paragraph style={{ marginTop: 10 }}>

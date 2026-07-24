@@ -14,7 +14,7 @@ const projects = [
     title: 'projects.biometricSearch.title',
     description: 'projects.biometricSearch.description',
     technologies: 'projects.biometricSearch.technologies',
-    image: '/images/projects/biometric-search.png',
+    image: '/biometric-search.png',
     href: '#',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     title: 'projects.commercialPlatform.title',
     description: 'projects.commercialPlatform.description',
     technologies: 'projects.commercialPlatform.technologies',
-    image: '/images/projects/commercial-platform.png',
+    image: '/commercial-platform.png',
     href: '#',
   },
 ];

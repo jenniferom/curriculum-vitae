@@ -68,7 +68,8 @@ export default function TechStackSection() {
         }}
         gutter={20}
         style={{
-          width: '100%',
+          width: 'calc(100vw - 100px)',
+          maxWidth: 1020,
           margin: '0 auto',
         }}
         items={technologies.map((category) => ({
@@ -77,9 +78,9 @@ export default function TechStackSection() {
           children: (
             <Card
               style={{
-                height: '100%',
-                width: 200,
+                width: '100%',
               }}
+
               styles={{
                 body: {
                   padding: 20,
