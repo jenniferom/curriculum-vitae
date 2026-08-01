@@ -37,10 +37,16 @@ const technologies = [
     items: 'technologies.authentication.items',
   },
   {
-    id: 'testingTools',
+    id: 'testing',
     icon: <ToolOutlined />,
-    title: 'technologies.testingTools.title',
-    items: 'technologies.testingTools.items',
+    title: 'technologies.testing.title',
+    items: 'technologies.testing.items',
+  },
+  {
+    id: 'tools',
+    icon: <ToolOutlined />,
+    title: 'technologies.tools.title',
+    items: 'technologies.tools.items',
   },
   {
     id: 'others',

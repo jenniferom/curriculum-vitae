@@ -3,24 +3,32 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #02153d;
+  --secundary: #5d1f8c;
+  --details: #0197af;
+  --details2: #00eed0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.whatsapp-button {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed;
-    --foreground: #ededed;
-  }
+.whatsapp-button:hover {
+  background: white !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.cv-download-button {
+  background: white;
+  border-color: #5d1f8c;
+  color: #5d1f8c;
+}
+
+.cv-download-button:hover {
+  background: #5d1f8c !important;
+  border-color: #5d1f8c !important;
+  color: white !important;
 }

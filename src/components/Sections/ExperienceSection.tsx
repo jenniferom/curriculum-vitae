@@ -13,12 +13,7 @@ const jobs = [
     title: 'jobs.datys.title',
     period: 'jobs.datys.period',
     type: 'jobs.datys.type',
-    achievements: [
-      'jobs.datys.achievement1',
-      'jobs.datys.achievement2',
-      'jobs.datys.achievement3',
-      'jobs.datys.achievement4',
-    ],
+    achievements: 'jobs.datys.achievements',
   },
 ];
 
@@ -41,7 +36,10 @@ export default function ExperienceSection() {
             title={t(job.title)}
             period={t(job.period)}
             type={t(job.type)}
-            achievements={job.achievements.map((achievement) => t(achievement))}
+            achievements={t(job.achievements)
+              .split('. ')
+              .map((achievement) => achievement.trim())
+              .filter(Boolean)}
           />
         ))}
       </div>

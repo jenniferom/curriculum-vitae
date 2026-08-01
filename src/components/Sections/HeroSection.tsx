@@ -3,6 +3,8 @@ import { Col, Typography, Tag, Space, Grid, Image } from 'antd';
 import { useTranslations } from 'next-intl';
 import Section from './Section';
 import { themeTokens } from '@/contexts/AntdContext';
+import CVDownload from '../CVDownload/CVDownload';
+import WAppContact from '../WAppContact/WAppContact';
 
 const { useBreakpoint } = Grid;
 
@@ -59,6 +61,16 @@ export default function HeroSection() {
             <Typography.Text style={{ fontSize: 16 }}>
               {t('descriptions')}
             </Typography.Text>
+          </Space>
+          <Space
+            size="middle"
+            style={{
+              marginTop: 24,
+              flexWrap: 'wrap',
+            }}
+          >
+            <WAppContact />
+            <CVDownload />
           </Space>
         </div>
         {screens.xl && (

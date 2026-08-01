@@ -1,7 +1,4 @@
 {
-  "Application": {
-    "name": "Plataforma Integradora de Servicios"
-  },
   "MainLayout": {
     "footer": "©{currentYear} Creación personal"
   },
@@ -9,7 +6,7 @@
     "title": "Contacto",
     "name": "Jennifer Ortiz Méndez",
     "email": "jenniferom0009@gmail.com",
-    "mobile": "+53 56 596 891"
+    "mobile": "+53 5 659 6891"
   },
   "LocaleSwitcher": {
     "es": "ES",
@@ -23,10 +20,10 @@
   },
   "PublicPage": {
     "hero": {
-      "commissions": "Especialista en desarrollo frontend",
+      "commissions": "Desarrolladora Frontend",
       "title": "Jennifer Ortiz Méndez",
-      "subtitle": "Ingeniera en Ciencias Informáticas | Desarrolladora Frontend especializada en React y Next.js.",
-      "descriptions": "Apasionada por la creación de interfaces de usuario robustas, escalables y centradas en el rendimiento. Experta en ecosistemas modernos de JavaScript con amplia experiencia en proyectos empresariales complejos, migraciones tecnológicas y arquitectura de componentes"
+      "subtitle": "Ingeniera en Ciencias Informáticas especializada en React y Next.js.",
+      "descriptions": "Experiencia en aplicaciones empresariales, migraciones tecnológicas, integración con APIs REST y desarrollo de soluciones desde cero."
     },
     "experience": {
       "title": "Experiencia Profesional"
@@ -37,10 +34,7 @@
         "position": "Especialista en Programación Avanzada",
         "period": "2024 - Presente",
         "type": "Tiempo completo",
-        "achievement1": "Liderazgo técnico en la migración estratégica de Blazor a Next.js, mejorando los tiempos de carga y optimizando el SEO.",
-        "achievement2": "Desarrollo integral de una plataforma de servicios en línea desde cero, implementando una arquitectura de micro-frontends modular.",
-        "achievement3": "Implementación de sistemas de diseño complejos basados en Ant Design y Tailwind CSS para estandarizar la UI corporativa.",
-        "achievement4": "Gestión eficiente de estados asíncronos y caché mediante TanStack Query, reduciendo peticiones redundantes al backend."
+        "achievements": "Desarrollo de aplicaciones empresariales con React, Next.js y TypeScript.. Análisis de requerimientos y procesos de negocio, diseño de flujos e implementación de interfaces.. Integración con APIs REST y gestión de datos asíncronos mediante TanStack Query.. Implementación de autenticación, autorización y control de acceso basado en roles con Auth.js y Keycloak.. Migración de aplicaciones frontend de Blazor a Next.js.. Desarrollo de soluciones web y móviles desde cero.. Trabajo bajo Scrum y herramientas de control de versiones."
       }
     },
     "education": {
@@ -64,31 +58,31 @@
       "description": "Una selección de proyectos en los que he trabajado.",
       "biometricSearch": {
         "title": "Buscador Biométrico",
-        "description": "Sistema de búsqueda de alta precisión para identificación biométrica. Optimizado para manejar grandes volúmenes de datos con visualizaciones interactivas de resultados y matching en tiempo real.",
+        "description": "Desarrollo y evolución del frontend de una solución empresarial de búsqueda biométrica. Migración de Blazor a Next.js, implementación de flujos de trabajo complejos e integración con APIs REST.",
         "technologies": "Next.js, Ant Design, Material Icons, TypeScript, TanStack Query"
       },
       "commercialPlatform": {
         "title": "Plataforma Comercial",
-        "description": "Ecosistema digital de servicios en línea para gestión comercial B2B. Incluye módulos de facturación, gestión de usuarios y reportes dinámicos.",
+        "description": "Desarrollo desde cero de una plataforma de servicios en línea para la gestión de clientes, servicios y facturación, con integración con APIs REST.",
         "technologies": "Next.js, Ant Design, TypeScript, TanStack Query, Zod"
       },
       "featured": {
-        "tag": "Estudio de caso móvil",
+        "tag": "Aplicación móvil",
         "title": "Aplicación Móvil para Lectura de Códigos QR",
-        "description": "Desarrollo multiplataforma de una aplicación móvil integrada con una plataforma de servicios, con funcionalidades de lectura y generación de códigos QR, integración con APIs REST y desarrollo de vistas para la presentación de información, garantizando la integridad de los datos y una experiencia de usuario fluida.",
+        "description": "Desarrollo de una aplicación móvil integrada con una plataforma de servicios. Implementación de lectura y decodificación de códigos QR, integración con APIs REST y desarrollo de vistas para la presentación de información.",
         "technologies": "React Native, Expo, TypeScript, React Navigation"
       }
     },
     "technologies": {
       "title": "Stack Tecnológico",
-      "description": "Dominio avanzado de herramientas modernas para el desarrollo de aplicaciones web de alto impacto.",
+      "description": "Tecnologías y herramientas utilizadas en el desarrollo de aplicaciones web y móviles.",
       "languages": {
         "title": "Lenguajes",
         "items": "TypeScript, JavaScript, HTML, CSS, C#"
       },
       "frontend": {
         "title": "Frontend",
-        "items": "React, Next.js 15/16, React Native, Ant Design 5/6, Material UI, Tailwind CSS, Bootstrap"
+        "items": "React, Next.js, React Native, Ant Design, Tailwind CSS, Bootstrap"
       },
       "data": {
         "title": "Datos y validación",
@@ -102,14 +96,24 @@
         "title": "Integración",
         "items": "APIs REST, Swagger/OpenAPI, Postman"
       },
-      "testingTools": {
-        "title": "Testing y herramientas",
-        "items": "Cypress, Pruebas E2E, Git, GitHub, TFS/Azure DevOps, Figma, Navicat"
+      "testing": {
+        "title": "Testing",
+        "items": "Cypress, Pruebas E2E"
+      },
+      "tools": {
+        "title": "Herramientas",
+        "items": "Git, GitHub, TFS/Azure DevOps, Figma, Navicat"
       },
       "others": {
         "title": "Otros",
         "items": "Docker, Linux, i18n, Scrum"
       }
     }
+  },
+  "CVDownload": {
+    "downloadCV": "Descargar CV"
+  },
+  "WAppContact": {
+    "contact": "Contactar"
   }
 }
