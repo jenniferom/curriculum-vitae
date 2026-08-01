@@ -13,7 +13,7 @@ export default function HeroSection() {
   const screens = useBreakpoint();
 
   return (
-    <Section id="hero">
+    <Section id="home">
       <div
         style={{
           display: 'flex',

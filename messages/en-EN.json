@@ -1,23 +1,119 @@
 {
-  "Application": {
-    "name": "Plataforma Integradora de Servicios"
-  },
   "MainLayout": {
-    "footer": "DATYS ©{currentYear}. Todos los derechos reservados",
-    "helpMenu": {
-      "userManual": "Manual de usuario",
-      "aboutMe": "Acerca de"
-    },
-    "userMenu": {
-      "signOut": "Cerrar sesión"
-    }
+    "footer": "©{currentYear} Personal project"
+  },
+  "Contact": {
+    "title": "Contact",
+    "name": "Jennifer Ortiz Méndez",
+    "email": "jenniferom0009@gmail.com",
+    "mobile": "+53 5 659 6891"
   },
   "LocaleSwitcher": {
     "es": "ES",
     "en": "EN"
   },
-  "HomePage": {
-    "welcome": "Bienvenido,",
-    "recentSearches": "Búsquedas recientes"
+  "Header": {
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "PublicPage": {
+    "hero": {
+      "commissions": "Frontend Developer",
+      "title": "Jennifer Ortiz Méndez",
+      "subtitle": "Computer Science Engineer specialized in React and Next.js.",
+      "descriptions": "Experience in enterprise applications, technology migrations, REST API integration, and building solutions from scratch."
+    },
+    "experience": {
+      "title": "Professional Experience"
+    },
+    "jobs": {
+      "datys": {
+        "title": "DATYS",
+        "position": "Advanced Programming Specialist",
+        "period": "2024 - Present",
+        "type": "Full-time",
+        "achievements": "Development of enterprise applications with React, Next.js, and TypeScript.. Analysis of business requirements and processes, user flow design, and interface implementation.. Integration with REST APIs and asynchronous data management using TanStack Query.. Implementation of authentication, authorization, and role-based access control with Auth.js and Keycloak.. Migration of frontend applications from Blazor to Next.js.. Development of web and mobile solutions from scratch.. Working under Scrum and using version control tools."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "description": "Education and professional development",
+      "uci": {
+        "title": "Computer Science Engineering",
+        "subtitle": "University of Informatics Sciences (UCI)",
+        "period": "2018-2023",
+        "description": "Education focused on software development, algorithms, data structures, software engineering, and technology project management."
+      },
+      "cypress": {
+        "title": "Cypress Testing Training",
+        "subtitle": "Certificate - University of Informatics Sciences",
+        "period": "2026",
+        "description": "End-to-end and API test automation using Cypress and Postman."
+      }
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "description": "A selection of projects I have worked on.",
+      "biometricSearch": {
+        "title": "Biometric Search System",
+        "description": "Frontend development and evolution of an enterprise biometric search solution. Migration from Blazor to Next.js, implementation of complex workflows, and REST API integration.",
+        "technologies": "Next.js, Ant Design, Material Icons, TypeScript, TanStack Query"
+      },
+      "commercialPlatform": {
+        "title": "Commercial Platform",
+        "description": "Development from scratch of an online services platform for customer, service, and billing management, with REST API integration.",
+        "technologies": "Next.js, Ant Design, TypeScript, TanStack Query, Zod"
+      },
+      "featured": {
+        "tag": "Mobile Application",
+        "title": "QR Code Scanning Mobile Application",
+        "description": "Development of a mobile application integrated with a services platform. Implementation of QR code scanning and decoding, REST API integration, and development of views for presenting information.",
+        "technologies": "React Native, Expo, TypeScript, React Navigation"
+      }
+    },
+    "technologies": {
+      "title": "Tech Stack",
+      "description": "Technologies and tools used in web and mobile application development.",
+      "languages": {
+        "title": "Languages",
+        "items": "TypeScript, JavaScript, HTML, CSS, C#"
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": "React, Next.js, React Native, Ant Design, Tailwind CSS, Bootstrap"
+      },
+      "data": {
+        "title": "Data & Validation",
+        "items": "TanStack Query, Context API, Zod"
+      },
+      "authentication": {
+        "title": "Authentication & Authorization",
+        "items": "Auth.js, Keycloak, Role-Based Access Control"
+      },
+      "integration": {
+        "title": "Integration",
+        "items": "REST APIs, Swagger/OpenAPI, Postman"
+      },
+      "testing": {
+        "title": "Testing",
+        "items": "Cypress, E2E Testing"
+      },
+      "tools": {
+        "title": "Tools",
+        "items": "Git, GitHub, TFS/Azure DevOps, Figma, Navicat"
+      },
+      "others": {
+        "title": "Other",
+        "items": "Docker, Linux, i18n, Scrum"
+      }
+    }
+  },
+  "CVDownload": {
+    "downloadCV": "Download CV"
+  },
+  "WAppContact": {
+    "contact": "Contact"
   }
 }
