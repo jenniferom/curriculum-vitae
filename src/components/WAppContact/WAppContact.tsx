@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from 'antd';
 import { WhatsAppOutlined } from '@ant-design/icons';
-import { PHONE_NUMBER } from '@/config/constants';
+import { WHATSAPP_URL } from '@/config/constants';
 /**
  * Componente que renderiza un enlace para descargar el manual de usuario.
  */
@@ -13,7 +13,7 @@ const WAppContact = () => {
   return (
     <Button
       type="primary"
-      href={`https://wa.me/${PHONE_NUMBER}`}
+      href={WHATSAPP_URL}
       target="_blank"
       icon={<WhatsAppOutlined style={{ fontSize: 18 }} />}
       className="whatsapp-button"

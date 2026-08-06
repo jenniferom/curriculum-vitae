@@ -5,6 +5,7 @@ import { Row, Col, Divider, Grid, Button } from 'antd';
 import LocaleSwitcher from '../LocaleSwitcher/LocaleSwitcher';
 import { themeTokens } from '@/contexts/AntdContext';
 import { Facebook, WhatsApp } from '@mui/icons-material';
+import { FACEBOOK_URL, WHATSAPP_URL } from '@/config/constants';
 
 const { useBreakpoint } = Grid;
 
@@ -52,8 +53,21 @@ const MainFooter = () => {
 
           {/* Columna 2: Redes */}
           <Col xs={24} md={12} style={{ display: 'flex', gap: 10 }}>
-            <Button type="text" icon={<WhatsApp />}></Button>
-            <Button type="text" icon={<Facebook />}></Button>
+            <Button
+              type="text"
+              icon={<WhatsApp />}
+              href={WHATSAPP_URL}
+              target="_blank"
+              className="cv-download-button"
+            />
+
+            <Button
+              type="text"
+              icon={<Facebook />}
+              href={FACEBOOK_URL}
+              target="_blank"
+              className="cv-download-button"
+            />
           </Col>
         </Row>
         <Divider
