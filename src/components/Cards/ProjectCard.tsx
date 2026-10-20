@@ -8,6 +8,7 @@ interface ProjectCardProps {
   technologies: string[];
   image?: string;
   icon?: ReactNode;
+  href?: string;
 }
 
 export default function ProjectCard({
@@ -16,15 +17,17 @@ export default function ProjectCard({
   technologies,
   image,
   icon,
+  href,
 }: ProjectCardProps) {
   return (
     <Card
       hoverable
       style={{
-        flex: '1 1 400px',
-        maxWidth: 500,
+        width: '100%',
+        height: '100%',
         overflow: 'hidden',
         padding: 0,
+        cursor: 'default',
       }}
       styles={{
         body: {
@@ -85,6 +88,12 @@ export default function ProjectCard({
           </Tag>
         ))}
       </div>
+
+      {href && (
+        <Typography.Link href={href} target="_blank" rel="noopener noreferrer">
+          Ver demo
+        </Typography.Link>
+      )}
     </Card>
   );
 }

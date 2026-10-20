@@ -1,12 +1,14 @@
 {
   "MainLayout": {
-    "footer": "©{currentYear} Personal project"
+    "footer": "©{currentYear} Personal Project"
   },
   "Contact": {
     "title": "Contact",
     "name": "Jennifer Ortiz Méndez",
     "email": "jenniferom0009@gmail.com",
-    "mobile": "+53 5 659 6891"
+    "mobile": "+53 5 659 6891",
+    "location": "Havana, Cuba",
+    "languages": "Spanish: Native.. English: A2 · Technical documentation comprehension"
   },
   "LocaleSwitcher": {
     "es": "ES",
@@ -20,10 +22,10 @@
   },
   "PublicPage": {
     "hero": {
-      "commissions": "Frontend Developer",
+      "commissions": "Software Developer",
       "title": "Jennifer Ortiz Méndez",
-      "subtitle": "Computer Science Engineer specialized in React and Next.js.",
-      "descriptions": "Experience in enterprise applications, technology migrations, REST API integration, and building solutions from scratch."
+      "subtitle": "Computer Science Engineer | Software Developer",
+      "descriptions": "Computer Science Engineer with experience in enterprise application development, REST API integration, and backend development with C# and .NET. Specialized in React and Next.js, with experience in requirements analysis, business processes, and use case flow design. Able to work collaboratively and develop web and mobile solutions from scratch."
     },
     "experience": {
       "title": "Professional Experience"
@@ -31,26 +33,26 @@
     "jobs": {
       "datys": {
         "title": "DATYS",
-        "position": "Advanced Programming Specialist",
-        "period": "2024 - Present",
+        "position": "Software Development Specialist",
+        "period": "January 2024 - Present",
         "type": "Full-time",
-        "achievements": "Development of enterprise applications with React, Next.js, and TypeScript.. Analysis of business requirements and processes, user flow design, and interface implementation.. Integration with REST APIs and asynchronous data management using TanStack Query.. Implementation of authentication, authorization, and role-based access control with Auth.js and Keycloak.. Migration of frontend applications from Blazor to Next.js.. Development of web and mobile solutions from scratch.. Working under Scrum and using version control tools."
+        "achievements": "Development of enterprise applications using React, Next.js, and TypeScript.. Requirements and business process analysis, workflow design, and interface implementation.. REST API integration and asynchronous data management using TanStack Query.. Implementation of authentication, authorization, and role-based access control using Auth.js and Keycloak.. Migration of frontend applications from Blazor to Next.js.. Development of web and mobile solutions from scratch.. Working with Scrum and version control tools."
       }
     },
     "education": {
       "title": "Education",
-      "description": "Education and professional development",
+      "description": "Academic background and professional development",
       "uci": {
         "title": "Computer Science Engineering",
         "subtitle": "University of Informatics Sciences (UCI)",
-        "period": "2018-2023",
+        "period": "Sep. 2018 - Dec. 2023",
         "description": "Education focused on software development, algorithms, data structures, software engineering, and technology project management."
       },
       "cypress": {
-        "title": "Cypress Testing Training",
-        "subtitle": "Certificate - University of Informatics Sciences",
+        "title": "End-to-End (E2E) Test Automation Course with Cypress",
+        "subtitle": "University of Informatics Sciences (UCI)",
         "period": "2026",
-        "description": "End-to-end and API test automation using Cypress and Postman."
+        "description": "Certificate of participation in training on End-to-End (E2E) test automation with Cypress."
       }
     },
     "projects": {
@@ -58,26 +60,36 @@
       "description": "A selection of projects I have worked on.",
       "biometricSearch": {
         "title": "Biometric Search System",
-        "description": "Frontend development and evolution of an enterprise biometric search solution. Migration from Blazor to Next.js, implementation of complex workflows, and REST API integration.",
+        "description": "Development and ongoing enhancement of the frontend for an enterprise biometric search solution. Migration from Blazor to Next.js, implementation of complex workflows, and REST API integration.",
         "technologies": "Next.js, Ant Design, Material Icons, TypeScript, TanStack Query"
       },
       "commercialPlatform": {
-        "title": "Commercial Platform",
-        "description": "Development from scratch of an online services platform for customer, service, and billing management, with REST API integration.",
+        "title": "Online Commercial Services Platform",
+        "description": "Development from scratch of an online services platform for managing clients, services, and billing, with REST API integration.",
         "technologies": "Next.js, Ant Design, TypeScript, TanStack Query, Zod"
       },
       "featured": {
         "tag": "Mobile Application",
-        "title": "QR Code Scanning Mobile Application",
-        "description": "Development of a mobile application integrated with a services platform. Implementation of QR code scanning and decoding, REST API integration, and development of views for presenting information.",
+        "title": "QR Code Reader Mobile Application",
+        "description": "Development of a mobile application integrated with a services platform. Implementation of QR code scanning and decoding, REST API integration, and views for displaying information.",
         "technologies": "React Native, Expo, TypeScript, React Navigation"
+      },
+      "tocaToca": {
+        "title": "El Toca Toca Bar",
+        "description": "Design of the initial prototype and implementation of a web platform for bar management. Includes a landing page, user registration, reservation and table management, menu, promotions, and a blind date feature. Personal project currently in development and deployed on Vercel.",
+        "technologies": "Next.js, React, TypeScript, Ant Design, next-intl, Vercel"
+      },
+      "sip": {
+        "title": "Forensic Information System (SIP)",
+        "description": "Development of web interfaces with Next.js and backend features with C# and .NET, integrated with Oracle databases through stored procedures.",
+        "technologies": "Next.js, TypeScript, C#, .NET, Oracle, REST APIs"
       }
     },
     "technologies": {
-      "title": "Tech Stack",
-      "description": "Technologies and tools used in web and mobile application development.",
+      "title": "Technical Skills",
+      "description": "Technologies and tools used to develop web and mobile applications.",
       "languages": {
-        "title": "Languages",
+        "title": "Programming Languages",
         "items": "TypeScript, JavaScript, HTML, CSS, C#"
       },
       "frontend": {
@@ -85,11 +97,11 @@
         "items": "React, Next.js, React Native, Ant Design, Tailwind CSS, Bootstrap"
       },
       "data": {
-        "title": "Data & Validation",
+        "title": "Data Management and Validation",
         "items": "TanStack Query, Context API, Zod"
       },
       "authentication": {
-        "title": "Authentication & Authorization",
+        "title": "Authentication and Authorization",
         "items": "Auth.js, Keycloak, Role-Based Access Control"
       },
       "integration": {
@@ -105,7 +117,7 @@
         "items": "Git, GitHub, TFS/Azure DevOps, Figma, Navicat"
       },
       "others": {
-        "title": "Other",
+        "title": "Other Skills",
         "items": "Docker, Linux, i18n, Scrum"
       }
     }

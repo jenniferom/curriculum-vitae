@@ -6,7 +6,9 @@
     "title": "Contacto",
     "name": "Jennifer Ortiz Méndez",
     "email": "jenniferom0009@gmail.com",
-    "mobile": "+53 5 659 6891"
+    "mobile": "+53 5 659 6891",
+    "location": "La Habana, Cuba",
+    "languages": "Español: Nativo.. Inglés: A2 · Comprensión de documentación técnica"
   },
   "LocaleSwitcher": {
     "es": "ES",
@@ -20,10 +22,10 @@
   },
   "PublicPage": {
     "hero": {
-      "commissions": "Desarrolladora Frontend",
+      "commissions": "Desarrolladora de Software",
       "title": "Jennifer Ortiz Méndez",
-      "subtitle": "Ingeniera en Ciencias Informáticas especializada en React y Next.js.",
-      "descriptions": "Experiencia en aplicaciones empresariales, migraciones tecnológicas, integración con APIs REST y desarrollo de soluciones desde cero."
+      "subtitle": "Ingeniera en Ciencias Informáticas | Desarrolladora de Software",
+      "descriptions": "Ingeniera en Ciencias Informáticas con experiencia en desarrollo de aplicaciones empresariales, integración con APIs REST y desarrollo backend con C# y .NET. Especializada en React y Next.js, con experiencia en análisis de requerimientos, procesos de negocio y diseño de flujos de casos de uso. Capacidad para trabajar en equipo y desarrollar soluciones web y móviles desde cero."
     },
     "experience": {
       "title": "Experiencia Profesional"
@@ -31,8 +33,8 @@
     "jobs": {
       "datys": {
         "title": "DATYS",
-        "position": "Especialista en Programación Avanzada",
-        "period": "2024 - Presente",
+        "position": "Especialista en Programación",
+        "period": "Enero 2024 - Actualidad",
         "type": "Tiempo completo",
         "achievements": "Desarrollo de aplicaciones empresariales con React, Next.js y TypeScript.. Análisis de requerimientos y procesos de negocio, diseño de flujos e implementación de interfaces.. Integración con APIs REST y gestión de datos asíncronos mediante TanStack Query.. Implementación de autenticación, autorización y control de acceso basado en roles con Auth.js y Keycloak.. Migración de aplicaciones frontend de Blazor a Next.js.. Desarrollo de soluciones web y móviles desde cero.. Trabajo bajo Scrum y herramientas de control de versiones."
       }
@@ -43,14 +45,14 @@
       "uci": {
         "title": "Ingeniería en Ciencias Informáticas",
         "subtitle": "Universidad de las Ciencias Informáticas (UCI)",
-        "period": "2018-2023",
+        "period": "Sept. 2018 - Dic. 2023",
         "description": "Formación orientada al desarrollo de software, algoritmos, estructuras de datos, ingeniería de software y gestión de proyectos tecnológicos."
       },
       "cypress": {
-        "title": "Entrenamiento de pruebas con Cypress",
-        "subtitle": "Certificación - Universidad de las Ciencias Informáticas",
+        "title": "Curso de Automatización de Pruebas End-to-End (E2E) con Cypress",
+        "subtitle": "Universidad de las Ciencias Informáticas (UCI)",
         "period": "2026",
-        "description": "Automatización de pruebas end to end y de API con Cypress y Postman"
+        "description": "Certificado de participación en formación sobre automatización de pruebas End-to-End (E2E) con Cypress."
       }
     },
     "projects": {
@@ -62,7 +64,7 @@
         "technologies": "Next.js, Ant Design, Material Icons, TypeScript, TanStack Query"
       },
       "commercialPlatform": {
-        "title": "Plataforma Comercial",
+        "title": "Plataforma Comercial de Servicios en Línea",
         "description": "Desarrollo desde cero de una plataforma de servicios en línea para la gestión de clientes, servicios y facturación, con integración con APIs REST.",
         "technologies": "Next.js, Ant Design, TypeScript, TanStack Query, Zod"
       },
@@ -71,6 +73,16 @@
         "title": "Aplicación Móvil para Lectura de Códigos QR",
         "description": "Desarrollo de una aplicación móvil integrada con una plataforma de servicios. Implementación de lectura y decodificación de códigos QR, integración con APIs REST y desarrollo de vistas para la presentación de información.",
         "technologies": "React Native, Expo, TypeScript, React Navigation"
+      },
+      "tocaToca": {
+        "title": "El Toca Toca Bar",
+        "description": "Diseño del prototipo inicial e implementación de una plataforma web para la gestión de un bar. Incluye landing page, registro de usuarios, gestión de reservas y mesas, menú, ofertas y una dinámica de citas a ciegas. Proyecto personal en desarrollo, desplegado en Vercel.",
+        "technologies": "Next.js, React, TypeScript, Ant Design, next-intl, Vercel"
+      },
+      "sip": {
+        "title": "Sistema de Información Pericial (SIP)",
+        "description": "Desarrollo de interfaces web con Next.js e implementación de funcionalidades backend con C# y .NET, integradas con bases de datos Oracle mediante procedimientos almacenados.",
+        "technologies": "Next.js, TypeScript, C#, .NET, Oracle, APIs REST"
       }
     },
     "technologies": {

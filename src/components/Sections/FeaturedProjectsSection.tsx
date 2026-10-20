@@ -1,6 +1,6 @@
 'use client';
 
-import { Card, Grid, Tag, Typography } from 'antd';
+import { Card, Grid, Image, Tag, Typography } from 'antd';
 import { useTranslations } from 'next-intl';
 import { themeTokens } from '@/contexts/AntdContext';
 import Section from './Section';
@@ -15,7 +15,6 @@ const projects = [
     description: 'projects.biometricSearch.description',
     technologies: 'projects.biometricSearch.technologies',
     image: '/biometric-search.png',
-    href: '#',
   },
   {
     id: 'commercial-platform',
@@ -23,7 +22,21 @@ const projects = [
     description: 'projects.commercialPlatform.description',
     technologies: 'projects.commercialPlatform.technologies',
     image: '/commercial-platform.png',
-    href: '#',
+  },
+  {
+    id: 'sip',
+    title: 'projects.sip.title',
+    description: 'projects.sip.description',
+    technologies: 'projects.sip.technologies',
+    image: '/sip.png',
+  },
+  {
+    id: 'toca-toca',
+    title: 'projects.tocaToca.title',
+    description: 'projects.tocaToca.description',
+    technologies: 'projects.tocaToca.technologies',
+    image: '/toca-toca.png',
+    href: 'https://toca-toca-two.vercel.app/',
   },
 ];
 
@@ -56,6 +69,7 @@ export default function FeaturedProjectsSection() {
               .split(',')
               .map((technology) => technology.trim())}
             image={project.image}
+            href={project.href}
           />
         ))}
 
@@ -68,40 +82,30 @@ export default function FeaturedProjectsSection() {
           }}
           styles={{
             body: {
-              padding: screens.xs ? 25 : 40,
+              padding: screens.xs ? 20 : 40,
             },
           }}
         >
           <div
             style={{
-              display: 'flex',
-              flexDirection: screens.md ? 'row' : 'column',
-              gap: 40,
+              display: 'grid',
+              gridTemplateColumns: screens.sm ? '1fr 0.7fr' : '1fr',
+              gap: screens.xs ? 24 : 40,
               alignItems: 'center',
             }}
           >
-            {/* Información del proyecto */}
-            <div style={{ flex: 1 }}>
+            <div>
               <Typography.Title
                 level={2}
-                style={{
-                  color: '#fff',
-                  marginTop: 0,
-                }}
+                style={{ color: '#fff', marginTop: 0 }}
               >
                 {t('projects.featured.title')}
               </Typography.Title>
 
-              <Typography.Paragraph
-                style={{
-                  color: 'rgba(255, 255, 255, 0.85)',
-                  fontSize: 16,
-                }}
-              >
+              <Typography.Paragraph style={{ color: '#fff' }}>
                 {t('projects.featured.description')}
               </Typography.Paragraph>
 
-              {/* Tecnologías */}
               <div
                 style={{
                   display: 'flex',
@@ -112,41 +116,34 @@ export default function FeaturedProjectsSection() {
               >
                 {t('projects.featured.technologies')
                   .split(',')
+                  .map((technology) => technology.trim())
                   .map((technology) => (
-                    <Tag
-                      style={{
-                        backgroundColor: `color-mix(in srgb, ${themeTokens.secundary2} 50%, transparent)`,
-                        color: '#fff',
-                        //border: 'none',
-                      }}
-                      key={technology.trim()}
-                    >
-                      {technology.trim()}
-                    </Tag>
+                    <Tag key={technology}>{technology}</Tag>
                   ))}
               </div>
             </div>
 
-            {/* Imagen / preview */}
             <div
               style={{
-                flex: 1,
                 width: '100%',
-                minHeight: 250,
+                maxWidth: screens.xs ? 220 : 360,
+                justifySelf: 'center',
+                backgroundColor: 'rgba(255,255,255,0.1)',
                 borderRadius: 12,
-                background: 'rgba(255, 255, 255, 0.1)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
+                overflow: 'hidden',
               }}
             >
-              <Typography.Text
+              <Image
+                src="/qr.png"
+                alt={t('projects.featured.title')}
+                preview={false}
+                width="100%"
                 style={{
-                  color: 'rgba(255, 255, 255, 0.6)',
+                  display: 'block',
+                  height: 'auto',
+                  objectFit: 'contain',
                 }}
-              >
-                Project Preview
-              </Typography.Text>
+              />
             </div>
           </div>
         </Card>

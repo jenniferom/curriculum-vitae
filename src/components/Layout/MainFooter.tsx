@@ -49,6 +49,7 @@ const MainFooter = () => {
             <div>{tc('name')}</div>
             <div>{tc('email')}</div>
             <div>{tc('mobile')}</div>
+            <div>{tc('location')}</div>
           </Col>
 
           {/* Columna 2: Redes */}
